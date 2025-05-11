@@ -1,6 +1,6 @@
 const express = require("express") ;
 const app = express() ;
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const cors = require('cors');
